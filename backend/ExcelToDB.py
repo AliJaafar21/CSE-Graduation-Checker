@@ -1,31 +1,9 @@
 from openpyxl import load_workbook
-from app import create_app
 from src.database import db, Course
 
-# app = create_app()
 
 def populateTheDatabase():
 	print("Populating The Database")
-	# with app.app_context():
-	# 	workbook = load_workbook("COURSES.xlsx")
-	# 	for sheetName in workbook.sheetnames:
-	# 		print(f" Processing {sheetName} Sheet")
-	# 		sheet = workbook[sheetName]			
-	# 		for rowIndex in range(1, sheet.max_row + 1):	
-	# 			name = sheet.cell(row=rowIndex, column=1).value
-	# 			title = sheet.cell(row=rowIndex, column=2).value
-	# 			tag1 = sheet.cell(row=rowIndex, column=3).value
-	# 			tag2 = sheet.cell(row=rowIndex, column=4).value
-	# 			tag3 = sheet.cell(row=rowIndex, column=5).value
-				
-	# 			if(Course.query.filter_by(name=name)).first():
-	# 				print(f"  {name} already exits")
-	# 				continue
-
-	# 			course = Course(name=name, title=title, tag1=tag1, tag2=tag2, tag3=tag3, equivalent_to=None)
-	# 			db.session.add(course)
-	# 	db.session.commit()
-	# 	workbook.close()
 
 	workbook = load_workbook("COURSES.xlsx")
 	for sheetName in workbook.sheetnames:
@@ -70,6 +48,7 @@ def setEquivalencies():
 		course2.equivalent_to = course1Name
 	db.session.commit()
 	workbook.close()
+
 
 db.create_all()
 populateTheDatabase()
