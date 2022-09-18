@@ -27,7 +27,6 @@ def getCourse(name):
 @jwt_required()
 def createCourse():
     id = get_jwt_identity()
-    print(id)
     user = User.query.filter_by(id=id).first()
     if user.role != RolesEnum.STAFF:
         return {'error' : 'unauthorized access'}, 401

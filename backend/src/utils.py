@@ -15,7 +15,6 @@ def ExtractCourses(student, file):
                 courses.append(match.replace(" ", ""))
     
     for name in courses:
-        print(name)
         course =  Course.query.filter_by(name=name).first()
         if course:
             student.taken_courses.append(course)
