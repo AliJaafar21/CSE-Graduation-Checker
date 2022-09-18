@@ -2,7 +2,7 @@
 
 ## About
 
-__Computer Science & Engineering (CSE)__ is the newest major at AUB, it still doesn't have a degree evaluation tool which checks whether CSE students 
+__Computer Science & Engineering (CSE)__ is the newest major at AUB, and it still doesn't have a degree evaluation tool which checks whether CSE students 
 have satisfied the curriculum requirements or not. This project attempts to provide such a tool!    
 
 From one side, students can signup and upload their transcript, the courses will be extracted and saved.
