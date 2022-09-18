@@ -1,0 +1,15 @@
+.table-fixed {
+  table-layout: fixed;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.margin-20-px {
+  margin: 20px;
+}
+
+.create-course-btn {
+  margin: 1% 0 3% 0;
+}

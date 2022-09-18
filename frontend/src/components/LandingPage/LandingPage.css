@@ -1,0 +1,131 @@
+.main-div {
+  background-image: url('../../../public/home.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Nunito';
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.blue {
+  color: #0d6efd !important;
+}
+
+.white-on-hover:hover {
+  color: white !important;
+}
+
+.title {
+  font-family: 'Nunito';
+  font-weight: 900;
+}
+
+.title-container {
+  height: 100%;
+  position: relative;
+  top: 30%;
+}
+
+.login-background {
+  background-image: url('../../../public/login.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.signup-staff-background {
+  background-image: url('../../../public/staffSignup.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.signup-students-background {
+  background-image: url('../../../public/studentsSignup.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.my-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  overflow-x: auto;
+}
+
+.my-flex-direction {
+  flex-direction: row;
+}
+
+.login-first {
+  height: 100%;
+  width: 75%;
+}
+
+.login-second {
+  height: 100%;
+  width: 25%;
+}
+
+.staff-signup-first {
+  height: 100%;
+  width: 75%;
+}
+
+.staff-signup-second {
+  height: 100%;
+  width: 25%;
+}
+
+.student-signup-first {
+  height: 100%;
+  width: 50%;
+}
+
+.student-signup-second {
+  height: 100%;
+  width: 50%;
+}
+
+@media screen and (max-width: 950px) {
+  .login-first {
+    height: 100%;
+    width: 100%;
+  }
+
+  .login-second {
+    height: 100%;
+    width: 100%;
+  }
+
+  .staff-signup-first {
+    height: 100%;
+    width: 100%;
+  }
+
+  .staff-signup-second {
+    height: 100%;
+    width: 100%;
+  }
+
+  .student-signup-first {
+    height: 100%;
+    width: 100%;
+  }
+
+  .student-signup-second {
+    height: 100%;
+    width: 100%;
+  }
+
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.margin-8-percent {
+  margin: 8%;
+}

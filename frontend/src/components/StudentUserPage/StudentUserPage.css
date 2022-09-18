@@ -1,0 +1,39 @@
+.evaluation-margins {
+  margin: 0px 15px 0px 15px;
+}
+
+.blue-line {
+  border-top: 2px solid #0d6efd;
+  margin: 0;
+  width: 70%;
+}
+
+.taken-courses-margins {
+  margin: 10px;
+}
+
+.file-input {
+  width: 50%;
+}
+
+.margin-5-px {
+  margin: 5px;
+}
+
+@media screen and (max-width: 1359px) {
+  .file-input {
+    width: 80%;
+  }
+
+  .upload-btn {
+    width: 100%;
+    white-space: normal !important;
+    word-wrap: break-word;
+  }
+
+  .check-requirements-btn {
+    width: 100%;
+    white-space: normal !important;
+    word-wrap: break-word;
+  }
+}
