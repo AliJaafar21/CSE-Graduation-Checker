@@ -16,13 +16,13 @@ examination.
 
 ## Technologies
 
-The frontend is built with __ReactJs__.  
-The backend is a __Flask REST API__ and a __MySQL__ Database.
+* The frontend is built with __ReactJs__.  
+* The backend is a __Flask REST API__ and a __MySQL__ Database.
 
 ## Deployment
 
-The frontend was deployed using [Netlify](https://www.netlify.com/).  
-The backend was deployed using [PythonAnywhere](https://www.pythonanywhere.com/).
+* The frontend was deployed using [Netlify](https://www.netlify.com/).  
+* The backend was deployed using [PythonAnywhere](https://www.pythonanywhere.com/).
 
 Kindly use https://cse-graduation-checker.netlify.app/ to access the website.  
 It is expected to be responsive across devices.
