@@ -14,6 +14,10 @@ and `ExtractCourses(student, file)` in [utils.py](backend/src/utils.py)
 From another side, staff members at AUB's ECE department can view all registered students, the courses they've taken, and can view the results of graduation requirements 
 examination.
 
+## Acknowledgement
+
+My profound gratitude goes to my fellow CSE and my mentor [__Karim Zarzour__](https://github.com/KZarzour) for his invaluable support, patience, time and guidance to help me complete this project.
+
 ## Technologies
 
 * The frontend is built with __ReactJs__.  
@@ -26,7 +30,3 @@ examination.
 
 Kindly use https://cse-graduation-checker.netlify.app/ to access the website.  
 It is expected to be responsive across devices.
-
-## Acknowledgement
-
-My profound gratitude goes to my fellow CSE and my mentor [__Karim Zarzour__](https://github.com/KZarzour) for his invaluable support, patience, time and guidance to help me complete this project.
