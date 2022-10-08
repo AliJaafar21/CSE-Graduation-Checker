@@ -26,3 +26,7 @@ examination.
 
 Kindly use https://cse-graduation-checker.netlify.app/ to access the website.  
 It is expected to be responsive across devices.
+
+## Acknowledgement
+
+My profound gratitude goes to my fellow CSE and my mentor [__Karim Zarzour__](https://github.com/KZarzour) for his invaluable support, patience, time and guidance to help me complete this project.
